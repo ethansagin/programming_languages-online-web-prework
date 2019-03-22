@@ -7,6 +7,7 @@ def reformat_languages(languages)
       new_hash[lang_k] ||= lang_v
       new_hash[lang_k][:style] ||= []
       new_hash[lang_k][:style] << style
+      binding.pry
     end
   end
   new_hash
